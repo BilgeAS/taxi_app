@@ -3,6 +3,12 @@
         android:label="taxi_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- GOOGLE MAPS API ANAHTARINIZI TAM BURAYA EKLEYİN -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBfZS_M_ft3teL25mJfr27s9WmBxi7RgOE"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -30,7 +36,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+            
     </application>
+
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
          https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
