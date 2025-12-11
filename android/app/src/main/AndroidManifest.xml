@@ -7,7 +7,7 @@
         <!-- GOOGLE MAPS API ANAHTARINIZI TAM BURAYA EKLEYİN -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBfZS_M_ft3teL25mJfr27s9WmBxi7RgOE"/>
+            android:value="AIzaSyAOJtMeKdyPm2z083yGT78nAj1lfzPdtmM"/>
 
         <activity
             android:name=".MainActivity"

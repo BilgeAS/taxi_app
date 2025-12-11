@@ -46,9 +46,9 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-<string>Taksi hizmeti için konumunuza ihtiyacımız var.</string>
-<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>Taksi hizmeti için konumunuza ihtiyacımız var.</string>
+<string>Tillat appen å vise posisjonen din på kartet.</string>
 
+<key>NSLocationAlwaysUsageDescription</key>
+<string>Posisjonen din vil bli sporet selv når appen ikke er i bruk (f.eks. for taxisparking).</string>
 </dict>
 </plist>
