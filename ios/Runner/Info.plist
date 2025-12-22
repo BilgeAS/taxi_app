@@ -45,28 +45,17 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+    
+    <!-- GPS-tillatelser -->
 	<key>NSLocationWhenInUseUsageDescription</key>
-<string>Tillat appen å vise posisjonen din på kartet.</string>
+	<string>Tillat appen å vise posisjonen din på kartet.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Posisjonen din vil bli sporet selv når appen ikke er i bruk (f.eks. for taxisparking).</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Appen trenger tilgang til posisjon for å finne nærmeste taxi.</string>
 
-<key>NSLocationAlwaysUsageDescription</key>
-<string>Posisjonen din vil bli sporet selv når appen ikke er i bruk (f.eks. for taxisparking).</string>
-
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string></string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
+    <!-- Google Maps krav -->
+	<key>io.flutter.embedded_views_preview</key>
+    <true/>
 </dict>
 </plist>
